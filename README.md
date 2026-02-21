@@ -2,6 +2,21 @@
 
 Official TypeScript SDK for the Afriex Business API. A unified interface for all Afriex services.
 
+## Overview
+
+**Afriex** is a cross-border payments and money-transfer platform that lets businesses send money, convert currencies, and manage payouts across Africa and beyond.
+
+This SDK is the official TypeScript/JavaScript client for the **Afriex Business API**. It lets your backend application:
+
+- **Onboard customers** and manage their KYC details.
+- **Create and track transactions** — send money across currencies (e.g. USD → NGN).
+- **Manage payment methods** — bank accounts, mobile money, crypto wallets, and virtual accounts.
+- **Query exchange rates** in real time.
+- **Check your organisation's wallet balances**.
+- **Verify webhook signatures** to securely receive Afriex event notifications.
+
+The SDK is written in TypeScript, ships with full type definitions, and is organised as a monorepo so you can install the single `@afriex/sdk` umbrella package or pick individual packages (`@afriex/customers`, `@afriex/rates`, …) to keep your bundle size small.
+
 ## Installation
 
 ```bash
